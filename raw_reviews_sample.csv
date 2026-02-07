@@ -1,0 +1,148 @@
+Author,Handle,Comment Text,Date,Likes,Retweets,Replies
+Jaana Dogan ヤナ ドガン,@rakyll,"It's not perfect and I'm iterating on it but this is where we are right now. If you are skeptical of coding agents, try it on a domain you are already an expert of. Build something complex from scratch where you can be the judge of the artifacts.",Jan 3,5042,231,80
+Marco Dewey,@marco_dewey,when will gemini get to this point,Jan 3,262,2,2
+Jaana Dogan ヤナ ドガン,@rakyll,We are working hard right now. The models and the harness.,Jan 3,1400,17,27
+justin,@foooorsyth,How detailed was the prompt? Closer to brief ad-hoc description or full-blown PRD?,Jan 3,83,3,2
+Jaana Dogan ヤナ ドガン,@rakyll,It wasn't a very detailed prompt and it contained no real details given I cannot share anything propriety. I was building a toy version on top of some of the existing ideas to evaluate Claude Code. It was a three paragraph description.,Jan 3,626,21,17
+pleb,@LifeAberration,"Thank you for sharing that Jaana. I'm curious what made you finally try comparing your work with the work of a coding system now, and what were your expectations before?",Jan 3,61,0,1
+Jaana Dogan ヤナ ドガン,@rakyll,I had time to play on toy projects for the first time over the holidays.,Jan 3,196,6,10
+Aryan,@AryanTyagi100,Thats crazy! Do you think Google gemini will beat Claude Opus soon,Jan 3,41,0,2
+Jaana Dogan ヤナ ドガン,@rakyll,Beating is the goal. Anthropic has done a great job building their harness. It's great to see this kind of progress even it's coming from a competitor.,Jan 3,633,22,11
+Thomas Power,@thomaspower,"This is the quiet shockwave moment. It's not that Claude coded faster. It's that a clear problem description now compresses a year of committee debate, alignment friction, and orchestration overhead into an hour. The bottleneck has shifted: from implementation to articulation",Jan 3,115,16,5
+Michael Kove,@michael_kove,"This is both, proudest and worrying moment for Anthropic..",Jan 3,359,24,6
+Adam MacBeth,@adamac,Why isn't it funny?,Jan 3,1,0,5
+11eleven,@sticktoitivity,"There's absolutely no way Claude Code or any other model could come up with my custom orchestration workflows because the hard part is not technical, it's meta-logic which is the foundation of knowledge itself acc. K. Popper and R. Feynman's build to understand philosophies.",Jan 3,25,1,4
+Dhruv,@dhruv2038,Isn't this already opensourced by Uber?,Jan 3,32,2,2
+geoff,@GeoffreyHuntley,welcome to ralph land - ghuntley.com/ralph now put an entire system into a loop,Jan 3,27,1,3
+Kirk Marple,@KirkMarple,"Was it that Claude could ignore the team dynamics and make decisions, which were holding it back last year? Or more, the learnings of the last year made it easier to create a new, clean version from scratch?",Jan 3,531,25,2
+Pliny the Liberator,@elder_plinius,"it's hilarious, actually try to have a sense of humor about it when you experience this",Jan 3,129,10,4
+The Deal Director,@thedealdirector,The claude boys will have a field day with this one…,Jan 3,151,0,4
+nicholas,@nnnnicholas,"The problem with this post is that you shift the goal posts. In the problem statement, the issue was not everyone is aligned. In the solution, Claude Code generates what you built in the last year. If you give them whatever Claude Code came up with, they will still not be",Jan 4,8,0,2
+Jack Vinijtrongjit,@juminoz,"If there are multiple options and it takes even just a week to implement each prototype, why not just do them all and make them compete? This is where I have always seen as an issue with companies like Google. Just move fast and let the results make the decision for you.",Jan 3,15,3,4
+Shane,@digitalshane_,But does everyone agree on what Claude built? Comparing 1 year of disagreements to 1hour of Claude going to town on a solution is not fair.,Jan 3,19,0,2
+Emily,@IamEmily2050,What exactly the problem with Gemini 3 Pro? Why it can't keep up despite having all the depth knowledge?,Jan 3,16,5,1
+Mert Deveci,@gm_mertd,are you fired yet sorry,Jan 3,1,0,2
+Markov,@MarkovMagnifico,this is partially because your description of the problem launders in some of the wisdom you've gained from working on it still crazy and impressive,Jan 3,123,4,2
+Andreas Kirsch,@BlackHC,Yeah but did it achieve all of that using the internal Google dev experience and Everything is always 10x more difficult and more painful vs external,Jan 3,25,0,4
+Alireza Bashiri,@al3rez,I was making $15-30k/month a while back building MVPs for people just using Claude max. If you know how to build software.. this is 10x leverage.,Jan 3,10,0,2
+AJ,@alojoh,Before you started the project last year would you have been able to promote the problem sufficiently? Perhaps the value of the project was to be able to adequately describe the problem.,Jan 3,19,0,2
+Milk Road AI,@MilkRoadAI,Truly wild! This is a MASSIVE moment for the tech industry. A Principal Engineer at Google publicly admitted that a competitor's AI tool solved a problem in one hour that her team of human experts had been struggling with for over a year.,Jan 3,1,1,0
+Lucas Beyer,@giffmana,You know what's even funnier? Now ask it to write the Ariane stuff like pdd etc. it's probably gonna do it very well and in just minutes.,Jan 3,31,0,3
+DEE-EMPRESS,@Deedefiempress8,"and one would argue that AI integration isn't what would help humanity ease stress in the end. Elon made no mistake when he made the statement that in the coming years, there wouldn't be any need for jobs as AI would make it easier for everyone",Jan 3,1,1,0
+Ventuals,@ventuals,Anthropic's moat is code. We built markets for those who don't want to wait until the company goes public to gain exposure to this.,Jan 4,5,1,0
+Amol G.,@0xAmol,What is it they're doing that Google cannot? btw - I've been using Claude the last 1 week heavily to build our commerce back-end and it was far more useful than Codex or Gemini fwiw.,Jan 3,19,1,1
+Ahmad,@TheAhmadOsman,"Google has several Agents & IDEs which I genuinely doubt any of will exist in 5 years. For some reason, Google doesn't act in clear and aligned way without a big threat. OpenAI is a recent example of that.",Jan 3,54,0,0
+Kate KittyWong,@pingthepingping,@henry_wang,Jan 3,0,1,0
+Supreme,@supremebeme,i need to try claude code,Jan 3,2,1,0
+Chris,@chatgpt21,No trust @IsThisA3DModel she had a finical incentive to make her company look subpar trust! Ai is code slop!,Jan 4,5,1,0
+Bobby Healy,@realBobbyHealy,"Just got this from your app verification team. Our review found that your application integrates directly with Open AI, Groq, Anthropic, which conflicts with Google's data protection policies.",Jan 3,11,0,0
+Matt,@ThinkWiselyMatt,Im not joking And I hope this is funny But ive applied to google before Hire me maybe,Jan 3,9,2,2
+HDP,@HDPbilly,Why don't you give details on the system / solution Lemme guess get rid of wall clock vectors Discrete tick based system driven by events Time stamp everything shared between nodes for latency comparison,Jan 3,2,0,0
+AGI Plug,@agiplug,Is this a self roast,Jan 3,8,1,0
+Melvin Vivas,@donvito,"claude code is really good! curious, are you moving to anthropic?",Jan 3,14,0,0
+ThomPete,@Hello_World,"code is the usecase for most agents. Basically made the entire deterministic software stack infinitely customicable like a ying and yang between deterministic and indeterministic software, held together by the design patterns of the past.",Jan 4,0,0,0
+NotPhilSledge,@NotPhilSledge,"It's fascinating how AI sidesteps the bureaucracy that slows us down in big orgs, potentially sparking a renaissance in individual creativity. Do you see this reshaping how we approach complex problems at Google?",Jan 3,4,0,0
+Shaw,@shawmakesmagic,Same boat Mind blowing Respect to G for letting you use Claude btw,Jan 3,13,0,1
+Thiyagarajan,@mtrajan,"Alignment is expensive for people, cheap for models",Jan 3,9,0,0
+Yuli Kay,@YuliWho,The entry level is becoming lower and lower,Jan 3,7,0,0
+Frostyz,@frostyz,Claude code is really impressive and more and more developers will recognise it. Code generation and feature development will increase in a different pace.,Jan 4,0,0,0
+Igor Babuschkin,@ibab,Many such cases,Jan 3,42,1,0
+Mike Khristo,@MikeKhristo,@bcherny look what you've done,Jan 3,11,0,0
+Jeff Garzik,@jgarzik,"It's massive, if you have domain expertise",Jan 3,3,0,0
+M. Alex O. Vasilescu,@AlexTensor,Do not be impressed with code generator that stitches together code that someone else spent weeks writing and that ended up as training data.,Jan 3,12,0,0
+MLow,@degens,What's the company policy on using Claude vs Gemini?,Jan 3,4,0,0
+casinokrisa,@casinokrisa,AI-generated solutions often replicate existing work quickly but lack the nuanced trade-offs teams consider in production.,Jan 4,0,0,0
+Chaitanya,@chaaai,"Love this take, brb buying more of Google",Jan 4,0,0,0
+Gonka,@gonka_ai,An hour ended a year.,Jan 3,0,0,0
+Erik Kaiser,@ErikKaiser,Sick.,Jan 3,5,0,0
+Jan Rüttinger,@jan_ruettinger,This makes me incredibly bullish on Google. It shows the killer combo of: vulnerability + clarity + excitement,Jan 3,0,0,0
+MacronautBTC,@Macronaut_,I'm kind of laughing.,Jan 3,1,0,0
+DegenApeDev,@DegenApeDev,Yeah we've been telling you this for 2 years.,Jan 3,1,0,0
+Paul Colmer,@DigitalColmer,Claude Code is very impressive... fantastic work,Jan 3,1,0,0
+LuKashFen,@Lukashfen,👀,Jan 3,1,0,0
+Jake Baumann,@Jake_Joseph,Well. Here we are. Nice.,Jan 3,1,0,0
+al,@al_from_koii,Oh fuck. Good thing google hasnt found TribeCodeAI yet The results would be even better It might even look like gastown,Jan 3,1,0,0
+Victor,@vcastellm,"I trust you, no need to clarify it's not funny it's mind blowing and transforming, maybe you're underestimating how powerful it is?",Jan 3,3,0,0
+Tim Haines,@TimHaines,"Props for posting this, praising CC from the perspective of someone working on Gemini.",Jan 3,4,0,0
+Mike Fishbein,@mfishbein,Was the breakthrough here Claude Claude or breaking bureaucracy?,Jan 3,24,0,0
+cosmic mould,@cosmicmould,might be time to lowkey fire your entire team,Jan 3,2,0,0
+senor doggo,@fubuloubu,Jules orchestrator? Jules has been so nice to use,Jan 3,2,0,0
+Mat Velloso,@matvelloso,Imagine how many meetings this would have saved,Jan 3,17,0,0
+Tanmay Sutar,@tanny2109,I had similar experience when GPT first came out and it one-shotted my undergrad thesis on protein solubility algorithm modeling and I was visibly stunned,Jan 3,6,2,0
+TechGringo,@TechGringo,"The wildest part isn't that Claude did it in an hour. It's that an hour of focused prompting beats a year of alignment meetings. The model doesn't need consensus, it just ships.",Jan 3,2,0,0
+NerdyGuyMark,@NerdyGuyMark,Is anyone reviewing the code to see what it done?,Jan 3,2,1,0
+truesteel,@truesteel23,The question is do we build something now or go take a vacation for 6 months and let AI build it in 5 minutes,Jan 3,8,2,0
+MachineSovereign,@VizierPrime,"What this really exposes is that the hard part was never writing the code, it was getting alignment on what to build and how to reason about it. Once a single expert can compress intent directly into artifacts, a lot of institutional friction just vanishes.",Jan 3,1,0,0
+Jec,@defnotjec,"As you said... not everyone is aligned... Imagine how much you'd have got done if you just let someone run. Hopefully, software companies are taking note of THAT element in addition to potential productivity gains.",Jan 3,2,1,0
+phil chacko,@philchacko,"I take it you gave it a description of the problem as you understand it today, not as you understood it a year ago? Context gathering still could be a bottleneck?",Jan 3,8,1,1
+Mark Valorian,@markvalorian,This is like someone from the Pepsi flavor team saying Coke is incredible. The most ringing endorsement possible lol How much of a disparity would you say there is between Claude Code and Gemini's coding functionality?,Jan 3,15,1,1
+shiboo,@shiboo3008,"That feeling when strategic alignment takes 12 months and an LLM ships the same thing in 60 minutes. this isn't just about code, it's a mirror on big-org inertia",Jan 3,20,2,0
+0xkniraj,@0xKNiraj,hey @grok clone the aforementioned distributed agent orchestrators in haskell. MAKE NO MISTAKE,Jan 3,0,1,0
+Autism Squared,@Autism_Squared,"I can absolutely see coding agents as the future. Using Gemini, I found did a decent job at the coding. I plugged it into Antigravity while I was sitting in an airport lounge, built an android app that was usable within an hour.",Jan 3,2,0,0
+Steven Smith,@sstackmore,The key is in knowing how to describe the problem and having the instinct to know the finer points of architecture to discuss. This part is like water flowing down a canyon for those of us who have been building complex systems for decades. Incredible.,Jan 3,6,1,0
+Shiqin,@shiqin,"Google 2025: 12 months, 50 engineers, 0 alignment. Claude 2026: 1 hour, 1 prompt, 1 solution. This isn't a joke, it's a Margin Call on the entire engineering management layer. Welcome to the future.",Jan 4,2,0,0
+Money Maker,@MoneyMaker_94_,It seems like GOOG should fire you and your friends As the AI does your job faster and better,Jan 4,0,1,0
+Navaneeth Krishnan,@navaneethvb,"If models like Claude can already reconstruct complex systems by compressing org memory and past decisions what exactly is Gemini 3 supposed to unlock that isn't just more scale, more context, or better tooling?",Jan 3,1,0,0
+Ryan,@RyanOnThePath,Yep. This is where we are. I spent two days deleting a $615k six month contract. People have no idea what's coming.,Jan 3,1,1,0
+Gary Seiler,@geapishog,This feels pivotal. Tagged for historical reference. One giant leap for the spirit of humanity over tech domination.,Jan 3,0,1,60
+Mr. Barry,@barisukafx,I can't believe Google let you post and still keep this!,Jan 3,0,3,143
+Per-Anders Edwards,@per_anders,How much of it was you inputting what had already been solved vs it innovating what took the time?,Jan 3,0,1,377
+Russell Canfield,@RussellCanfield,Stop focusing on leetcode and hire actual engineers,Jan 3,0,1,62
+Rudy,@RudyReaper,This is such a mature tweet man. Kudos,Jan 3,0,1,72
+Justin Johnson,@ntasdfw,I wonder if it was trained on some of your data. btw if you want to make continual learning work i can give you access to my model,Jan 3,0,1,109
+Ysn KLCKY,@ysnklcky,Gemini broke my project yesterday. Claude repaired it today.,Jan 3,0,1,101
+Andrey,@Andrey__HQ,this is why anthropic is the best company there is Claude code is just too damm good,Jan 3,0,1,180
+Nathan Clark,@nathanclark_,"Did you also give it to Gemini CLI? And if so, how did it compare?",Jan 3,0,0,798
+Nash Aiomos ∞👽,@nashaiomos,It is very powerful,Jan 3,0,1,63
+ ۰,@iampraiez,it's probably cause you understand what you want to build,Jan 3,0,1,93
+Tyr,@amaturefuturist,This is a bit of a misnomer because your years building was spent on iteratively designing this which is why claude succeeded so easily,Jan 3,0,1,135
+Jony Musky,@jonymusky,"Impressive 👏 In my experience with Claude Code for agentic workflows, the ability to understand the full context and generate end-to-end solutions is a total paradigm shift.",Jan 3,0,1,144
+Co,@ITangoI,not everyone is aligned Oof is google failing to innovate because internal politics games and teams/managers wanting to put wins on their yearly review?,Jan 3,0,0,459
+olaf,@hford_supremacy,You should be fired,Jan 3,0,1,66
+nikhil 🍃,@nikhilchandna01,why not gemini ?,Jan 3,0,1,58
+new phone who dis,@oftenkaran,Welcome to Gas Town,Jan 3,0,1,188
+Paulo Coutinho 🇧🇷,@paulocoutinhox,"We need something from Google like Cursor IDE with Sonnet model, will be perfect 😍",45m,0,0,5
+Peter Samaha,@petersamahaa,Is this how Google built AntiGravity?,Jan 3,0,0,58
+2cents,@obeserverji,Thanks for the transparency . Its a rare thing,Jan 3,0,1,149
+CallMeYC,@SGodofa425,time to buy anthropic?,Jan 3,0,1,58
+Linus,@Tata_1900,"Models moving this fast, anon… alignment might be the real bottleneck.",Jan 3,0,1,267
+Fatesblind,@Fatesblind,That's wild . AI like Claude Code is accelerating innovation like crazy. Love how it's empowering solo devs to rival big teams. Game changer for free markets in tech.,Jan 3,0,1,136
+Andrew,@andrhlt,it is pretty funny,Jan 3,0,1,50
+AHMED,@AhmedAlDriwish,"🔴 However, you will face problems, especially since the program code is in the hands of others.",Jan 4,0,0,30
+Harpinder Jot Singh,@singhhcoder,"So claude is not bothered by promo culture and office politics, makes sense",Jan 3,0,0,699
+Manish Manghwani 👨‍💻,@itsManghwani,This is definitely scary! If distinguished fields are easily being built by claude then we will definitely see reduction in SE roles,Jan 3,0,1,123
+N,@LatentFreedom,Impressive shout out,Jan 3,0,1,167
+Alexandre Forget,@alexandreforget,"2026 is going to get wild. Hey finance, just don't crash the financial system this year while the geeks are speedrunning to AGI",Jan 3,0,1,429
+Sudo su,@sudoingX,google's problem isn't talent. it's that 10 brilliant engineers in a room will debate architecture for 6 months before writing a line.,Jan 3,0,0,48
+Mudi 🍀,@devmudi1,Claude code is in another level,Jan 3,0,0,77
+shubham,@bluequbit,Time vs timing,Jan 3,0,0,96
+Roszianski,@roszianski,"Wow, amazing.",Jan 3,0,0,47
+Shinji,@misssmisato,Acquisition soft launch lol,Jan 3,0,1,122
+Forward Unemployed Engineer,@waltuuuhr,Glad to see the fact that LLMs can solve my problems much faster doesn't mean I'm just stupid but that they are getting shockingly smart,Jan 3,0,0,2500
+pasaba por aquí,@pasabaxqui,My bet is the Code was there uploaded by your devs.,Jan 3,0,1,49
+Atif Saleem,@malikatifsaleem,Something related to Google ADK?,Jan 3,0,1,55
+Plutus,@PlutusCosmos,Play VideoPlayGIF,Jan 3,0,1,76
+Abe,@Abe_Froman_SKC,Yup 100%. The engineers made an engineer AI.,Jan 3,0,1,72
+Venkat Raman — inference/acc,@venkat_systems,"Claude code & codex cli are the best ! If you're switching to Anthropic / OpenAI, I'm available as well !",Jan 3,0,1,77
+Hamid,@hamiddevtech,We know it's time to gear up!,Jan 3,0,0,52
+MalmSanta,@MalmSanta,agentspace made me nauseous,Jan 4,0,0,23
+Sean Austin,@stlgotmynikeson,It's magical,Jan 3,0,0,243
+Ahmet Avcilar,@abavcilar,let's go,Jan 3,0,1,55
+flare on,@highrthanthesun,Insane,Jan 3,0,1,52
+Gauri Tripathi,@Gauri_the_great,This is scary,Jan 3,0,0,97
+bob,@lukelightCO,Claude code let me understand a huge infra in like 2 days. No hand off no documentation. I was thinking in the past it'd take me at least 6 months to get there.,Jan 3,0,2,57
+Assagman,@assagman,#ERROR!,Jan 3,0,2,70
+Joe Magerramov,@_joemag_,"We have a few similar examples as well. We use Kiro and Kiro CLI, and it's really great at brainstorming things that end up getting built.",Jan 3,0,1,650
+Vlad Ciobanu,@vlad3ciobanu,really appreciate the openness,Jan 3,0,1,35
+juand4bot,@juand4bot,"This is very transparent, thanks",Jan 3,0,1,40
+Rachel Blum,@groby,"Proposal: Nobody is allowed to say ""we need alignment"" more than times per year.",Jan 3,0,2,403
+gb is a builder,@sheys_mst,amazing,Jan 3,0,1,28
+Steven Casteel,@stevencasteelX,"One of the few times I've heard a SOTA AI engineer not only talk about how they've used a rival's AI, but praised it. Very cool Jaana.",Jan 3,0,2,79
+WASSIE,@Wassieweb3,thats wild validation for,Jan 3,0,1,1900
+Will and Word Productions,@willandwordx,"This sounds extremely close to a protocol I've been building called AIP -an intent-based agent orchestration layer. It emerged from exactly the problems you're describing. If you're curious, the spec and reference implementation are public.",Jan 3,0,0,38
+Sebastian Buzdugan,@sebuzdugan,The gap between internal research and what agents can generate in an hour is closing fast. I'm curious if the bottleneck is still the model or just the harness.,Jan 3,0,1,45
+Cap AK47 | MemeMax⚡️,@smile4748,claude just 1-shot your year of google drama. brutal,Jan 4,0,0,15
+"jendi π²(❖,❖) | 𝔽rAI noya",@tran_tuong71708,robust evals and guardrails win the day,Jan 3,0,1,31
+SebastianNJ,@SebastianNJ,You're right... I just shipped 2 projects on my to-do list in the past 3 weeks. This is nuts. 1) Cascade: AI Habit Coach 2) Ikonbnb: AI Ski Trip Planner,Jan 3,0,0,37
+satuk,@hekimbeyefendi,"Opus 4.5 isn't better than Gemini 3 Pro. Depends what you are doing, one of them has better results from another.",Jan 3,0,1,62
+nebula wiz,@NebulaWiz,Just worden without meaning. Principal engineer is just another word for tech influencer. Where is the output? Where is the proof? Otherwise just the same bullshit slop talk.,Jan 3,0,2,22
