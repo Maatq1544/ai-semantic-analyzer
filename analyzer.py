@@ -6,8 +6,11 @@ from openai import OpenAI
 from concurrent.futures import ThreadPoolExecutor
 import sys
 
-# Load credentials from environment or direct (Tommy style: safety first)
-DEEPSEEK_API_KEY = "sk-d8f8b50e8c644385b40767ff88b2892d"
+# Load credentials from environment (never hardcode keys!)
+import os
+DEEPSEEK_API_KEY = os.environ.get("DEEPSEEK_API_KEY", "")
+if not DEEPSEEK_API_KEY:
+    raise ValueError("Set DEEPSEEK_API_KEY environment variable")
 BASE_URL = "https://api.deepseek.com"
 MODEL = "deepseek-chat"
 
