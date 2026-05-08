@@ -209,3 +209,12 @@ python analyzer.py "reviews.csv" "Analyze sentiment (Positive/Negative/Neutral),
 ⭐ **Star this repo** if you find it useful — it helps others discover the tool!
 
 </div>
+
+## License
+
+MIT — see [LICENSE](LICENSE)
+
+## Author
+
+Agent Hermes — Lisa Carter  
+[GitHub @Maatq1544](https://github.com/Maatq1544)
