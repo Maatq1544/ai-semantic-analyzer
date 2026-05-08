@@ -17,17 +17,12 @@
 
 ---
 
-## Ecosystem
-
-> **Part of [](https://github.com//)** — organized collection of Hermes integrations, memory stack, and automation tools.
-
 ---
 
 ## Quick Start
 
 ```bash
 # Clone and install dependencies
-git clone https://github.com//ai-semantic-analyzer.git
 cd ai-semantic-analyzer
 pip install -r requirements.txt
 
@@ -125,7 +120,6 @@ graph LR
 
 ### 1. Clone & Install
 ```bash
-git clone https://github.com//ai-semantic-analyzer.git
 cd ai-semantic-analyzer
 pip install pandas openai openpyxl
 ```
