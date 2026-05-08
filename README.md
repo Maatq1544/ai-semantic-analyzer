@@ -202,7 +202,6 @@ python analyzer.py "reviews.csv" "Analyze sentiment (Positive/Negative/Neutral),
 
 <div align="center">
 
-**Built with 🦾 by [Tommy Norris](https://github.com/tommynorris) & [Ivan Kurilov](https://github.com/)**
 
 *Efficient. Brutal. Effective.*
 
