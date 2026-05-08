@@ -8,7 +8,7 @@
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-Production_Ready-success?style=for-the-badge)
 
-**AI-powered semantic text analysis for CSV & Excel files.**  
+**AI-powered semantic text analysis for CSV & Excel files.** 
 *Batch sentiment analysis, text classification, survey response processing, and customer feedback extraction — 5,000+ rows per hour.*
 
 [Quick Start](#-quick-start) • [Use Cases](#-use-cases) • [Architecture](#-architecture) • [Who Is This For](#-who-is-this-for)
@@ -19,7 +19,7 @@
 
 ## Ecosystem
 
-> **Part of [Hermes Agent Ecosystem](https://github.com/Maatq1544/)** — organized collection of Hermes integrations, memory stack, and automation tools.
+> **Part of [](https://github.com//)** — organized collection of Hermes integrations, memory stack, and automation tools.
 
 ---
 
@@ -27,7 +27,7 @@
 
 ```bash
 # Clone and install dependencies
-git clone https://github.com/Maatq1544/ai-semantic-analyzer.git
+git clone https://github.com//ai-semantic-analyzer.git
 cd ai-semantic-analyzer
 pip install -r requirements.txt
 
@@ -101,14 +101,14 @@ The system uses a **Scatter-Gather** pattern for parallel AI processing — maxi
 
 ```mermaid
 graph LR
-    A[📄 Raw CSV/Excel] --> B{⚡ ThreadPool Orchestrator}
-    B --> C[🤖 Agent 1]
-    B --> D[🤖 Agent 2]
-    B --> E[🤖 Agent 3]
-    B --> F[🤖 Agent 4]
-    C & D & E & F --> G[🧠 LLM Inference (DeepSeek/GPT/Claude/Ollama)]
-    G --> H[📦 JSON Extraction]
-    H --> I[📊 Structured CSV Output]
+  A[📄 Raw CSV/Excel] --> B{⚡ ThreadPool Orchestrator}
+  B --> C[🤖 Agent 1]
+  B --> D[🤖 Agent 2]
+  B --> E[🤖 Agent 3]
+  B --> F[🤖 Agent 4]
+  C & D & E & F --> G[🧠 LLM Inference (DeepSeek/GPT/Claude/Ollama)]
+  G --> H[📦 JSON Extraction]
+  H --> I[📊 Structured CSV Output]
 ```
 
 ## 🔥 Key Features
@@ -125,7 +125,7 @@ graph LR
 
 ### 1. Clone & Install
 ```bash
-git clone https://github.com/Maatq1544/ai-semantic-analyzer.git
+git clone https://github.com//ai-semantic-analyzer.git
 cd ai-semantic-analyzer
 pip install pandas openai openpyxl
 ```
@@ -155,10 +155,10 @@ python analyzer.py "reviews.csv" "Analyze sentiment (Positive/Negative/Neutral),
 **Output:**
 ```json
 {
-  "sentiment": "Negative",
-  "sarcasm": true,
-  "broken_feature": "Login Button",
-  "urgency": "High"
+ "sentiment": "Negative",
+ "sarcasm": true,
+ "broken_feature": "Login Button",
+ "urgency": "High"
 }
 ```
 
@@ -171,10 +171,10 @@ python analyzer.py "reviews.csv" "Analyze sentiment (Positive/Negative/Neutral),
 **Output:**
 ```json
 {
-  "intent": "Purchase",
-  "company_size": "Enterprise (500 seats)",
-  "budget_sensitivity": "Low",
-  "lead_score": 95
+ "intent": "Purchase",
+ "company_size": "Enterprise (500 seats)",
+ "budget_sensitivity": "Low",
+ "lead_score": 95
 }
 ```
 
@@ -187,10 +187,10 @@ python analyzer.py "reviews.csv" "Analyze sentiment (Positive/Negative/Neutral),
 **Output:**
 ```json
 {
-  "topic": "Payment Gateway",
-  "urgency": "Critical",
-  "sentiment": "Angry",
-  "needs_escalation": true
+ "topic": "Payment Gateway",
+ "urgency": "Critical",
+ "sentiment": "Angry",
+ "needs_escalation": true
 }
 ```
 
@@ -208,7 +208,7 @@ python analyzer.py "reviews.csv" "Analyze sentiment (Positive/Negative/Neutral),
 
 <div align="center">
 
-**Built with 🦾 by [Tommy Norris](https://github.com/tommynorris) & [Ivan Kurilov](https://github.com/Maatq1544)**
+**Built with 🦾 by [Tommy Norris](https://github.com/tommynorris) & [Ivan Kurilov](https://github.com/)**
 
 *Efficient. Brutal. Effective.*
 
