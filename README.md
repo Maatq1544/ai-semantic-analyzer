@@ -17,6 +17,12 @@
 
 ---
 
+## Ecosystem
+
+> **Part of [Hermes Agent Ecosystem](https://github.com/Maatq1544/hermes-ecosystem)** — organized collection of Hermes integrations, memory stack, and automation tools.
+
+---
+
 ## 🌪 The Problem
 
 You have **10,000 customer reviews**, survey responses, support tickets, or lead descriptions. Spreadsheet data with unstructured text.
