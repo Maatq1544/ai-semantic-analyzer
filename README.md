@@ -23,6 +23,31 @@
 
 ---
 
+## Quick Start
+
+```bash
+# Clone and install dependencies
+git clone https://github.com/Maatq1544/ai-semantic-analyzer.git
+cd ai-semantic-analyzer
+pip install -r requirements.txt
+
+# Set LLM API key (choose one)
+export OPENAI_API_KEY="sk-..."
+# or
+export DEEPSEEK_API_KEY="..."
+
+# Run analysis
+python analyzer.py --input data.csv --output analyzed.csv --batch-size=50
+```
+
+**Output:** `analyzed.csv` with additional columns:
+- `sentiment` (positive/negative/neutral)
+- `sentiment_confidence` (0-1)
+- `category` (your custom classification)
+- `category_confidence` (0-1)
+
+---
+
 ## 🌪 The Problem
 
 You have **10,000 customer reviews**, survey responses, support tickets, or lead descriptions. Spreadsheet data with unstructured text.
@@ -55,6 +80,18 @@ You have **10,000 customer reviews**, survey responses, support tickets, or lead
 | **Sales & Marketing** | Score leads from free-text inquiries, analyze competitor reviews |
 | **Researchers** | Qualitative coding at scale — sentiment, theme extraction, categorization |
 | **E-Commerce Ops** | Process product reviews, detect sarcasm, extract feature requests |
+
+---
+
+## Security & Privacy
+
+⚠️ **Important:**
+- Input files are sent to external LLM APIs (OpenAI, DeepSeek, etc.)
+- **Do NOT** process sensitive/PII data (passwords, personal IDs, confidential info)
+- API keys are stored in environment variables — never commit `.env`
+- Processed data may be logged by LLM provider — check provider's data policy
+- For on-premise processing, use local LLM (Ollama) with `--model llama2`
+- Output files inherit sensitivity of input — handle accordingly
 
 ---
 
