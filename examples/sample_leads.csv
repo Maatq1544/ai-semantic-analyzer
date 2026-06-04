@@ -1,0 +1,11 @@
+id,message,source
+1,"Hi, we are looking to replace our enterprise CRM for 500 seats next quarter. Budget is flexible.",web_form
+2,"Just curious about pricing for a personal project.",web_form
+3,"Need a demo ASAP. Our current vendor is dropping support and we need to migrate by Q3.",web_form
+4,"What are your hours? Are you open on weekends?",live_chat
+5,"We evaluated 5 vendors and your platform fits best. Need to discuss enterprise contract.",email
+6,"Saw your ad on LinkedIn. Send me more info.",linkedin
+7,"Looking for a solution for 50 users, 1-year contract. What's the total cost?",web_form
+8,"Quick question: do you have a free trial?",web_form
+9,"Our team of 200 developers needs a new tool. Can you do a custom demo next week?",email
+10,"I just bought your competitor. Sorry, wrong window.",live_chat

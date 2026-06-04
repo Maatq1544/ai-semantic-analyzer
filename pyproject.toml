@@ -1,0 +1,133 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "ai-semantic-analyzer"
+version = "1.0.0"
+description = "Industrial-grade LLM pipeline for semantic CSV/Excel analysis — sentiment, classification, sarcasm detection, lead scoring"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [
+    { name = "AI Semantic Analyzer Contributors" }
+]
+keywords = [
+    "llm",
+    "nlp",
+    "sentiment-analysis",
+    "csv",
+    "excel",
+    "data-analysis",
+    "deepseek",
+    "openai",
+    "anthropic",
+    "ollama",
+    "classification",
+    "ai-pipeline",
+    "batch-processing",
+    "etl",
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Text Processing :: Linguistic",
+]
+requires-python = ">=3.10"
+dependencies = [
+    "pandas>=2.0",
+    "openpyxl>=3.1",
+    "pyarrow>=14.0",
+    "pydantic>=2.5",
+    "pydantic-settings>=2.1",
+    "python-dotenv>=1.0",
+    "click>=8.1",
+    "rich>=13.7",
+    "structlog>=24.1",
+    "tenacity>=8.2",
+    "openai>=1.30",
+    "anthropic>=0.28",
+    "pyyaml>=6.0",
+    "httpx>=0.27",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "pytest-cov>=4.1",
+    "pytest-asyncio>=0.23",
+    "ruff>=0.3",
+    "mypy>=1.8",
+    "types-PyYAML",
+    "types-openpyxl",
+]
+docs = [
+    "mkdocs>=1.5",
+    "mkdocs-material>=9.5",
+    "mkdocstrings[python]>=0.24",
+]
+
+[project.scripts]
+semantic-analyzer = "semantic_analyzer.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/Maatq1544/ai-semantic-analyzer"
+Repository = "https://github.com/Maatq1544/ai-semantic-analyzer"
+Issues = "https://github.com/Maatq1544/ai-semantic-analyzer/issues"
+Changelog = "https://github.com/Maatq1544/ai-semantic-analyzer/blob/main/CHANGELOG.md"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/semantic_analyzer"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+extend-exclude = ["tests/fixtures"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "N", "UP", "B", "A", "C4", "PT", "RUF"]
+ignore = ["E501", "B008"]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*" = ["B011", "PT011"]
+
+[tool.mypy]
+python_version = "3.10"
+strict = true
+warn_unused_ignores = true
+disallow_untyped_defs = true
+check_untyped_defs = true
+
+[tool.pytest.ini_options]
+minversion = "8.0"
+addopts = "-ra -q --strict-markers --strict-config"
+testpaths = ["tests"]
+pythonpath = ["src"]
+markers = [
+    "slow: marks tests as slow (deselect with '-m \"not slow\"')",
+    "integration: marks tests as integration tests",
+    "network: marks tests that require network access",
+]
+
+[tool.coverage.run]
+source = ["src/semantic_analyzer"]
+branch = true
+
+[tool.coverage.report]
+exclude_lines = [
+    "pragma: no cover",
+    "raise NotImplementedError",
+    "if __name__ == .__main__.:",
+    "if TYPE_CHECKING:",
+]
+show_missing = true
+skip_covered = false
+fail_under = 70

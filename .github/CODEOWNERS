@@ -1,0 +1,28 @@
+# CODEOWNERS — auto-assigns reviewers
+# https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+#
+# Last matching pattern wins. Order from specific to general.
+
+# Global fallback
+*                                @Maatq1544
+
+# Core code
+/src/semantic_analyzer/          @Maatq1544
+/src/semantic_analyzer/llm/      @Maatq1544
+/src/semantic_analyzer/pipeline/ @Maatq1544
+
+# CI / DevOps
+/.github/                        @Maatq1544
+/pyproject.toml                  @Maatq1544
+
+# Documentation & examples
+/docs/                           @Maatq1544
+/examples/                       @Maatq1544
+README.md                        @Maatq1544
+CHANGELOG.md                     @Maatq1544
+
+# Tests
+/tests/                          @Maatq1544
+
+# Security-sensitive
+SECURITY.md                      @Maatq1544

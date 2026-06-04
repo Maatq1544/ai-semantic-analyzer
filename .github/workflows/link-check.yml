@@ -1,0 +1,48 @@
+name: Link Checker
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  schedule:
+    - cron: "0 6 * * 1"  # weekly
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  lychee:
+    name: Lychee
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Lychee
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: >-
+            --verbose
+            --no-progress
+            --exclude 'file://'
+            --exclude 'http://127.0.0.1'
+            --exclude 'https://localhost'
+            --exclude 'https://example.com'
+            --exclude 'mailto:'
+            --accept '200,204,301,302,308'
+            --max-concurrency 16
+            --timeout 20
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Create issue on failure
+        if: failure()
+        uses: peter-evans/create-issue-from-file@v4
+        with:
+          title: "🔗 Broken links detected"
+          content-filepath: ./lychee/out.md
+          labels: |
+            bug
+            documentation
+            links

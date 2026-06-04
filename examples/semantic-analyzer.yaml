@@ -1,0 +1,48 @@
+# Sample configuration for AI Semantic Analyzer
+# Copy to `semantic-analyzer.yaml` and adjust to your needs.
+
+# Pipeline
+provider: deepseek              # deepseek | openai | anthropic | ollama
+output_format: csv              # csv | json | jsonl
+batch_size: 10                  # rows per parallel batch
+max_workers: 5                  # concurrent LLM calls
+chunk_size: 0                   # 0 = no chunking; or N rows/tokens
+chunk_strategy: none            # none | rows | tokens
+timeout: 60                     # per-request timeout (seconds)
+max_retries: 3                  # retries on transient errors
+log_level: INFO                 # DEBUG | INFO | WARNING | ERROR
+
+# Provider configs
+deepseek:
+  api_key: ${DEEPSEEK_API_KEY}
+  base_url: https://api.deepseek.com
+  model: deepseek-chat
+
+openai:
+  api_key: ${OPENAI_API_KEY}
+  base_url: https://api.openai.com/v1
+  model: gpt-4o-mini
+
+anthropic:
+  api_key: ${ANTHROPIC_API_KEY}
+  model: claude-3-5-sonnet-20241022
+
+ollama:
+  base_url: http://localhost:11434
+  model: llama3.2
+
+# Data cleaning
+clean:
+  drop_duplicates: true         # remove exact duplicate rows
+  drop_empty_rows: true         # remove rows where every cell is empty
+  normalize_text: true          # collapse whitespace, NFC unicode
+  trim_whitespace: true         # strip leading/trailing whitespace
+  lowercase_text: false         # set true to lowercase text columns
+  fill_na: null                 # set to a string to fill NaN values (e.g., "UNKNOWN")
+  dedupe_subset: null           # e.g. ["email"] to dedupe by email column only
+
+# Pipeline behavior
+resume: false                   # resume from checkpoint if available
+checkpoint_dir: .checkpoints    # where to store checkpoints
+dry_run: false                  # load + clean but skip LLM calls (for testing)
+show_progress: true             # show Rich progress bar

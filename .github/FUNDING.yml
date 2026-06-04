@@ -1,0 +1,9 @@
+# Funding configuration
+# https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/displaying-a-sponsor-button-in-your-repository
+#
+# Add the platforms you use. Uncomment as needed.
+
+github: [Maatq1544]
+open_collective: ai-semantic-analyzer
+ko_fi: ai-semantic-analyzer
+custom: ["https://github.com/sponsors/Maatq1544"]
