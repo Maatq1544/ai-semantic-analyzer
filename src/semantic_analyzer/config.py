@@ -204,14 +204,32 @@ class Config(BaseSettings):
     def effective_system_prompt(self) -> str | None:
         """Return the custom system prompt, loading from file if specified.
 
-        Returns ``None`` when no custom prompt is configured, meaning the
-        pipeline should use the built-in template.
+        Supports ``.txt``, ``.md`` (text) and ``.docx`` (extracted via
+        ``python-docx``).  Returns ``None`` when no custom prompt is
+        configured, meaning the pipeline should use the built-in template.
         """
         if self.system_prompt_file is not None:
             path = Path(self.system_prompt_file)
-            if path.exists():
-                return path.read_text(encoding="utf-8")
+            if not path.exists():
+                return self.system_prompt
+            if path.suffix.lower() == ".docx":
+                return self._read_docx(path)
+            return path.read_text(encoding="utf-8")
         return self.system_prompt
+
+    @staticmethod
+    def _read_docx(path: Path) -> str:
+        """Extract text from a .docx file."""
+        try:
+            from docx import Document
+        except ImportError:
+            raise ImportError(
+                "python-docx is required to read .docx prompts. "
+                "Install it with: pip install python-docx"
+            )
+        doc = Document(str(path))
+        paragraphs = [p.text.strip() for p in doc.paragraphs if p.text.strip()]
+        return "\n\n".join(paragraphs)
 
     @classmethod
     def from_env(cls) -> Config:
