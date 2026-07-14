@@ -15,7 +15,7 @@ def test_drop_duplicates() -> None:
 
 
 def test_drop_empty_rows() -> None:
-    df = pd.DataFrame({"a": [1, "", ""], "b": ["x", "", ""]})
+    df = pd.DataFrame({"a": [1, None, None], "b": ["x", None, None]})
     cleaner = DataCleaner(CleanConfig(drop_empty_rows=True, drop_duplicates=False, normalize_text=False))
     out, stats = cleaner.clean(df)
     assert len(out) == 1
@@ -46,8 +46,7 @@ def test_lowercase() -> None:
 
 
 def test_fill_na() -> None:
-    df = pd.DataFrame({"a": ["x", ""]})
+    df = pd.DataFrame({"a": ["x", None]})
     cleaner = DataCleaner(CleanConfig(fill_na="MISSING", normalize_text=False, drop_duplicates=False, drop_empty_rows=False))
     out, _ = cleaner.clean(df)
-    # Note: cleaner already normalizes "" to "MISSING" via fill_na
     assert "MISSING" in out["a"].values

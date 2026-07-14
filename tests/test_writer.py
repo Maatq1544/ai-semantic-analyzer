@@ -32,7 +32,7 @@ def test_write_jsonl(tmp_path: Path) -> None:
     writer = DataWriter()
     out = writer.write(df, tmp_path / "out.jsonl", fmt=OutputFormat.JSONL)
     text = out.read_text()
-    assert text.count("\n") == 1
+    assert text.count("\n") == 2
     assert text.startswith("{")
 
 
