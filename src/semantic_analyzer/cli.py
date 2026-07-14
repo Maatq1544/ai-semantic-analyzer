@@ -138,6 +138,18 @@ def main(ctx: click.Context, config: Path | None) -> None:
     help="Disable deduplication only.",
 )
 @click.option(
+    "--system-prompt",
+    type=str,
+    default=None,
+    help="Custom system prompt (overrides template).",
+)
+@click.option(
+    "--system-prompt-file",
+    type=click.Path(exists=False, path_type=Path),
+    default=None,
+    help="Path to file with custom system prompt.",
+)
+@click.option(
     "--lowercase",
     is_flag=True,
     default=False,
@@ -171,6 +183,8 @@ def run(
     no_progress: bool,
     no_clean: bool,
     no_dedupe: bool,
+    system_prompt: str | None,
+    system_prompt_file: Path | None,
     lowercase: bool,
     fill_na: str | None,
     verbose: bool,
@@ -188,6 +202,8 @@ def run(
         "resume": resume,
         "checkpoint_dir": checkpoint_dir,
         "dry_run": dry_run,
+        "system_prompt": system_prompt,
+        "system_prompt_file": system_prompt_file,
     }
     # Strip Nones
     overrides = {k: v for k, v in overrides.items() if v is not None}

@@ -158,6 +158,14 @@ class Config(BaseSettings):
     show_progress: bool = True
     """Display a Rich progress bar during processing."""
 
+    # Custom system prompt
+    system_prompt: str | None = None
+    """Inline system prompt. Overrides the default template when set."""
+
+    system_prompt_file: Path | None = None
+    """Path to a file containing the system prompt. Takes precedence over
+    ``system_prompt`` if both are set."""
+
     @model_validator(mode="after")
     def _validate_chunk_strategy(self) -> Config:
         if self.chunk_strategy == ChunkStrategy.ROWS and self.chunk_size == 0:
@@ -191,6 +199,19 @@ class Config(BaseSettings):
     def effective_model(self) -> str:
         """Return the model name for the active provider."""
         return self.active_provider_config.model
+
+    @property
+    def effective_system_prompt(self) -> str | None:
+        """Return the custom system prompt, loading from file if specified.
+
+        Returns ``None`` when no custom prompt is configured, meaning the
+        pipeline should use the built-in template.
+        """
+        if self.system_prompt_file is not None:
+            path = Path(self.system_prompt_file)
+            if path.exists():
+                return path.read_text(encoding="utf-8")
+        return self.system_prompt
 
     @classmethod
     def from_env(cls) -> Config:

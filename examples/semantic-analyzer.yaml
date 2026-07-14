@@ -4,7 +4,7 @@
 # Pipeline
 provider: deepseek              # deepseek | openai | anthropic | ollama
 output_format: csv              # csv | json | jsonl
-batch_size: 10                  # rows per parallel batch
+batch_size: 1                   # rows per LLM call (1 = one row per call)
 max_workers: 5                  # concurrent LLM calls
 chunk_size: 0                   # 0 = no chunking; or N rows/tokens
 chunk_strategy: none            # none | rows | tokens
@@ -31,6 +31,13 @@ ollama:
   base_url: http://localhost:11434
   model: llama3.2
 
+# Custom system prompt — overrides the built-in template
+# Inline version:
+# system_prompt: "You are a classifier..."
+
+# File version (takes precedence over inline):
+# system_prompt_file: /path/to/prompt.txt
+
 # Data cleaning
 clean:
   drop_duplicates: true         # remove exact duplicate rows
@@ -42,7 +49,7 @@ clean:
   dedupe_subset: null           # e.g. ["email"] to dedupe by email column only
 
 # Pipeline behavior
-resume: false                   # resume from checkpoint if available
+resume: true                    # resume from checkpoint if available
 checkpoint_dir: .checkpoints    # where to store checkpoints
 dry_run: false                  # load + clean but skip LLM calls (for testing)
 show_progress: true             # show Rich progress bar

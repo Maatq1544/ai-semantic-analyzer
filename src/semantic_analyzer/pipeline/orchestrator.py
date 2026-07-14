@@ -247,8 +247,9 @@ class Pipeline:
         def process_one(idx: int, row: dict[str, str]) -> None:
             try:
                 user_prompt = build_user_prompt(row, columns, task_description)
+                system_prompt = self.config.effective_system_prompt or build_system_prompt(self.config.provider.value)
                 request = CompletionRequest(
-                    system_prompt=build_system_prompt(self.config.provider.value),
+                    system_prompt=system_prompt,
                     user_prompt=user_prompt,
                     model=self.config.effective_model,
                     temperature=0.0,
